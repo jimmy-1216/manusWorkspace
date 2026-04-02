@@ -1,0 +1,30 @@
+{
+  "name": "微澜PulseRead",
+  "appid": "__UNI__PULSEREAD",
+  "description": "AI 驱动的跨领域资讯聚合与降噪阅读工具",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "enhance": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {},
+    "lazyCodeLoading": "requiredComponents",
+    "requiredPrivateInfos": []
+  },
+  "h5": {
+    "devServer": {
+      "https": false
+    },
+    "router": {
+      "mode": "hash"
+    }
+  }
+}

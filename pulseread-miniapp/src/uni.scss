@@ -1,0 +1,68 @@
+/* PulseRead 微澜 全局样式变量 */
+
+// 主色调 - 微澜绿
+$primary-color: #1DB954;
+$primary-light: #E8F8EE;
+$primary-dark: #17A348;
+
+// 文字颜色
+$text-primary: #1a1a1a;
+$text-secondary: #666666;
+$text-tertiary: #999999;
+$text-white: #ffffff;
+
+// 背景颜色
+$bg-primary: #ffffff;
+$bg-secondary: #f5f7fa;
+$bg-card: #ffffff;
+
+// 边框颜色
+$border-color: #e8e8e8;
+$border-light: #f0f0f0;
+
+// 功能色
+$color-positive: #1DB954;   // 利好
+$color-negative: #FF4D4F;   // 利空
+$color-neutral: #8C8C8C;    // 中性
+$color-warning: #FA8C16;    // 警告
+
+// AI 评分颜色
+$score-high: #1DB954;       // 88+
+$score-medium: #FA8C16;     // 75-87
+$score-normal: #1890FF;     // 60-74
+$score-low: #8C8C8C;        // <60
+
+// 间距
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+// 圆角
+$radius-sm: 8rpx;
+$radius-md: 12rpx;
+$radius-lg: 16rpx;
+$radius-xl: 24rpx;
+$radius-full: 999rpx;
+
+// 字体大小
+$font-xs: 20rpx;
+$font-sm: 24rpx;
+$font-base: 28rpx;
+$font-md: 30rpx;
+$font-lg: 32rpx;
+$font-xl: 36rpx;
+$font-2xl: 40rpx;
+$font-3xl: 48rpx;
+
+// 阴影
+$shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 8rpx 32rpx rgba(0, 0, 0, 0.12);
+
+// TabBar 高度
+$tabbar-height: 100rpx;
+
+// 状态栏高度（动态获取，这里是默认值）
+$status-bar-height: 44px;

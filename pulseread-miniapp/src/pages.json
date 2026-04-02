@@ -1,0 +1,108 @@
+{
+  "pages": [
+    {
+      "path": "pages/onboarding/index",
+      "style": {
+        "navigationBarTitleText": "开始使用微澜",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/feed/index",
+      "style": {
+        "navigationBarTitleText": "微澜",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "light"
+      }
+    },
+    {
+      "path": "pages/article/index",
+      "style": {
+        "navigationBarTitleText": "资讯详情",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/preference/index",
+      "style": {
+        "navigationBarTitleText": "偏好设置",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1DB954",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/feed/index",
+        "text": "发现",
+        "iconPath": "static/icons/feed.png",
+        "selectedIconPath": "static/icons/feed-active.png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "搜索",
+        "iconPath": "static/icons/search.png",
+        "selectedIconPath": "static/icons/search-active.png"
+      },
+      {
+        "pagePath": "pages/preference/index",
+        "text": "偏好",
+        "iconPath": "static/icons/preference.png",
+        "selectedIconPath": "static/icons/preference-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/icons/profile.png",
+        "selectedIconPath": "static/icons/profile-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "微澜",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f5f5f5"
+  },
+  "uniIdRouter": {}
+}
